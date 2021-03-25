@@ -6,9 +6,10 @@ namespace Slutprojekt
     {
         static void Main(string[] args)
         {
+            // The Game of Life / Något brädspel.
 
-            Console.WriteLine("Hello World!");
             
+
         }
     }
 }
