@@ -8,7 +8,9 @@ namespace Slutprojekt
 
         public Board()
         {
+
             board = new int[10,10];
+        
         }
     }
 }

@@ -6,13 +6,19 @@ namespace Slutprojekt
     {
         static Random generator = new Random();
         
-        public int money;
+        public int x { get; set; }
         
-        public int attributes;
-        
-        public int score;
+        public int y { get; set; }
 
-        public string job;
+        public string name { get; set; }
+
+        public int money { get; set; }
+        
+        public int attributes { get; set; }
+        
+        public int score { get; set; }
+
+        public string job { get; set; }
         
         private bool hasFinished = false;
         
@@ -20,7 +26,20 @@ namespace Slutprojekt
         {
 
             money = 200;
+            
+            x = 1;
+            y = 1;
 
+
+        }
+
+        public int CalcScore()
+        {
+
+            score = money + (attributes * 20);
+
+            return score;
+            
         }
 
     }

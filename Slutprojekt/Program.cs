@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Slutprojekt
 {
@@ -8,6 +9,7 @@ namespace Slutprojekt
         {
             // The Game of Life / Något brädspel.
 
+            
             
 
         }
