@@ -20,7 +20,7 @@ namespace Slutprojekt
 
         public string job { get; set; }
         
-        private bool hasFinished = false;
+        private bool hasFinished;
         
         public Player()
         {
@@ -30,6 +30,7 @@ namespace Slutprojekt
             x = 1;
             y = 1;
 
+            hasFinished = false;
 
         }
 
