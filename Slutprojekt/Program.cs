@@ -7,7 +7,9 @@ namespace Slutprojekt
     {
         static void Main(string[] args)
         {
-            // The Game of Life / Något brädspel.
+            // The Game of Life.
+
+            UIText ui = new UIText();
 
             bool endState = false;
             bool gameRunning = false;
@@ -18,12 +20,12 @@ namespace Slutprojekt
 
                 Board board = new Board();
                 
-
-                System.Console.WriteLine("Welcome to The Game of Life!");
-                System.Console.WriteLine("How many players will be playing?");
+                ui.IntroText();                                
                 
-                Console.ReadLine();
 
+                ui.GameRules();
+                
+                gameRunning = true;
                 while (gameRunning == true)
                 {
 
