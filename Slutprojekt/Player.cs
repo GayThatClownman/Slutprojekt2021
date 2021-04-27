@@ -52,9 +52,16 @@ namespace Slutprojekt
 
         }
 
+        public void OutputPlayerInfo()
+        {
+
+        }
+
 
         // Honestly ingen aning hur väl det här fungerar men whatever
         // Den är här nu
+        // Denna metod fungerar most likely inte för jag kan
+        // inte komma hur jag ska separera det olika Players i genereringen.
         public List<Player> GeneratePlayers()
         {
             string pAmountString;
@@ -71,9 +78,15 @@ namespace Slutprojekt
                 for (int x = 0; x < pAmountInt; x++)
                 {
 
+                    playerList.Add(new Player() { name = "Player" + x });
+
+
                 }
 
             }
+
+            // Console.ReadLine();
+
             return playerList;
         }
 
