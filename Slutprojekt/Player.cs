@@ -19,7 +19,10 @@ namespace Slutprojekt
 
         public int score { get; set; }
 
-        public string job { get; set; }
+        public bool hasGraduated { get; set; }
+
+
+        // public string job { get; set; }
 
         private bool hasFinished;
 
