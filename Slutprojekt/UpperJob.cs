@@ -6,7 +6,7 @@ namespace Slutprojekt
     public class UpperJob : Job
     {
         
-        public List<string> jobNames = new List<string>(); 
+        public List<string> jobNames = new List<string>() {"Monkey Entrepreneur", "Fisherman", "Filler"}; 
 
         public UpperJob()
         {

@@ -6,7 +6,7 @@ namespace Slutprojekt
     public class LowerJob : Job
     {
 
-        public List<string> jobNames = new List<string>();
+        public List<string> jobNames = new List<string>() {"BattleEye Developer", "Dart Monkey", "Filler"};
 
         public LowerJob()
         {
