@@ -21,6 +21,9 @@ namespace Slutprojekt
 
         public void OutputBoard()
         {
+
+            Console.Clear();
+
             for (int x = 0; x < board.GetLength(0); x++)
             {
                 for (int y = 0; y < board.GetLength(1); y++)

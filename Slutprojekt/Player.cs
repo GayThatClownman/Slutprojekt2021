@@ -63,10 +63,14 @@ namespace Slutprojekt
 
         // Honestly ingen aning hur väl det här fungerar men whatever
         // Den är här nu
-        // Denna metod fungerar most likely inte för jag kan
-        // inte komma hur jag ska separera det olika Players i genereringen.
+        // Okej nevermind den verkar typ fungera ändå
+
+        // Metod som genererar en uppsättning av spelare och lägger in de i en List.
+        // Metoden tar emot ett tal, kör den igenom en TryParse och om den lyckas, skapar så många spelare.
         public List<Player> GeneratePlayers()
         {
+            // bool generatePlayers = false;
+
             string pAmountString;
             int pAmountInt;
 
@@ -74,6 +78,9 @@ namespace Slutprojekt
             bool success = int.TryParse(pAmountString, out pAmountInt);
 
             List<Player> playerList = new List<Player>();
+
+            // while (generatePlayers == false)
+            // {
 
             if (success == true)
             {
@@ -86,8 +93,15 @@ namespace Slutprojekt
 
                 }
 
+                // generatePlayers = true;
             }
 
+            else
+            {
+                System.Console.WriteLine("Not a valid input.");
+            }
+
+            // }
             // Console.ReadLine();
 
             return playerList;

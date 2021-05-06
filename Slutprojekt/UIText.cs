@@ -18,7 +18,7 @@ namespace Slutprojekt
         {
 
             System.Console.WriteLine("Rules: ");
-            System.Console.WriteLine("* Lorem ipsum din mor");
+            // System.Console.WriteLine("* Lorem ipsum din mor");
             System.Console.WriteLine("* Filllllllllllllller");
 
             Console.ReadLine();
